@@ -21,6 +21,9 @@ public class mainController {
     @ResponseBody
     public String page1(){
         String msg="HelloWorld";
+
+
+
         Gson gson = new Gson();
         return gson.toJson(msg);
         //return "Test";
